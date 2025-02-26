@@ -1,18 +1,14 @@
 # SmartSpend
 
-<div align="center">
-  
-![SmartSpend Logo](https://via.placeholder.com/150)
-
 **A financial tracking web application designed specifically for users in India**
 
-</div>
+> **⚠️ Note:** This project is currently under active development and not yet ready for production use.
 
 ## 📖 Overview
 
-SmartSpend empowers individuals to manage their income, expenses, and savings effectively. With features like receipt uploads via camera, multilingual support, and an AI chatbot for personalized financial tips, SmartSpend is designed to make financial tracking accessible and user-friendly.
+SmartSpend is being developed to empower individuals to manage their income, expenses, and savings effectively. With planned features like receipt uploads via camera, multilingual support, and an AI chatbot for personalized financial tips, SmartSpend aims to make financial tracking accessible and user-friendly for Indian users.
 
-### Key Features
+### Planned Key Features
 
 - **Expense/Income Tracking**: Add, edit, and delete entries with categories (e.g., salary, rent, groceries)
 - **Receipt Upload**: Capture receipts via device camera or file upload
@@ -29,13 +25,9 @@ SmartSpend empowers individuals to manage their income, expenses, and savings ef
 - **Backend**: Supabase (BaaS)
 - **Deployment**: Vercel
 
-## 📱 Screenshots
+## 🚧 Development Status
 
-<div align="center">
-  <img src="https://via.placeholder.com/250x150" alt="Dashboard" width="30%">
-  <img src="https://via.placeholder.com/250x150" alt="Expense Tracking" width="30%">
-  <img src="https://via.placeholder.com/250x150" alt="AI Chatbot" width="30%">
-</div>
+SmartSpend is in active development. Many features are still being implemented, and the application structure may change significantly.
 
 ## 💻 Local Development
 
@@ -79,23 +71,14 @@ SmartSpend empowers individuals to manage their income, expenses, and savings ef
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 🚀 Deployment
-
-The app is configured for automatic deployment on Vercel:
-
-1. Fork this repository
-2. Connect to Vercel
-3. Set up environment variables
-4. Deploy!
-
-## 🔐 Authentication
+## 🔐 Authentication Implementation
 
 - Secure user authentication using Supabase Auth
 - Email/password and OAuth (Google, GitHub) options
 - Role-based access control (admin vs. regular user)
 - Session management with JWT tokens
 
-## 🌐 User Flow
+## 🌐 Planned User Flow
 
 1. **Landing Page**: Clean, responsive landing with login/signup option
 2. **Authentication**: Log in or sign up using email/password or OAuth
@@ -114,9 +97,19 @@ The app is configured for automatic deployment on Vercel:
 - **Icons**: Flat, minimalistic for consistency
 - **Accessibility**: High-contrast, keyboard navigation, ARIA labels
 
+## 📋 Current Tasks
+
+- [ ] Set up initial Next.js project structure
+- [ ] Configure Supabase authentication
+- [ ] Implement basic expense tracking functionality
+- [ ] Create responsive dashboard layout
+- [ ] Set up multilingual support framework
+- [ ] Implement dark/light mode toggle
+- [ ] Integrate OpenAI API for chatbot functionality
+
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+As this project is under development, contributions are welcome! Please feel free to open issues or submit pull requests.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
